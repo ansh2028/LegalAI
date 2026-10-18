@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" fill="#ffffff">
+  <!-- Central Base / Pedestal -->
+  <path d="M36 74 C36 71, 40 70, 50 70 C60 70, 64 71, 64 74 L62 77 C62 78, 38 78, 38 77 Z" />
+  <path d="M33 77 C33 75, 38 74, 50 74 C62 74, 67 75, 67 77 L66 79 C66 80, 34 80, 34 79 Z" />
+
+  <!-- Central Vertical Pillar / Column -->
+  <path d="M48.5 28 L51.5 28 C52 42, 52 56, 51.5 70 L48.5 70 C48 56, 48 42, 48.5 28 Z" />
+  <ellipse cx="50" cy="27" rx="3.5" ry="1.5" />
+  <ellipse cx="50" cy="69" rx="3" ry="1.2" />
+
+  <!-- Gavel at Top -->
+  <rect x="47" y="14" width="6" height="11" rx="1.5" />
+  <rect x="42" y="16" width="16" height="7" rx="2" />
+  <path d="M40 15 C39 17, 39 22, 40 24 L42 23 L42 16 Z" />
+  <path d="M60 15 C61 17, 61 22, 60 24 L58 23 L58 16 Z" />
+
+  <!-- Curved Beam extending to left and right -->
+  <path d="M50 25 C38 23, 27 25, 22 28 C20 29.5, 20.5 32, 23 31 C24 30.5, 24.5 29, 23.5 28 C28 26, 38 24.5, 50 26.5 C62 24.5, 72 26, 76.5 28 C75.5 29, 76 30.5, 77 31 C79.5 32, 80 29.5, 78 28 C73 25, 62 23, 50 25 Z" />
+
+  <!-- Left Scale Pan and Strings -->
+  <line x1="23" y1="31" x2="13" y2="52" stroke="#ffffff" stroke-width="0.8" />
+  <line x1="23" y1="31" x2="23" y2="52" stroke="#ffffff" stroke-width="0.8" />
+  <line x1="23" y1="31" x2="33" y2="52" stroke="#ffffff" stroke-width="0.8" />
+  <path d="M12 52 C12 52, 14 60, 23 60 C32 60, 34 52, 34 52 Z" />
+
+  <!-- Right Scale Pan and Strings -->
+  <line x1="77" y1="31" x2="67" y2="52" stroke="#ffffff" stroke-width="0.8" />
+  <line x1="77" y1="31" x2="77" y2="52" stroke="#ffffff" stroke-width="0.8" />
+  <line x1="77" y1="31" x2="87" y2="52" stroke="#ffffff" stroke-width="0.8" />
+  <path d="M66 52 C66 52, 68 60, 77 60 C86 60, 88 52, 88 52 Z" />
+</svg>

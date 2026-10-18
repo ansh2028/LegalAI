@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  background: #f4f4f5;
+  padding: 24px;
+}
+
+.heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.title-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.title-row h1 {
+  font-size: clamp(40px, 8vw, 76px);
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  margin: 0;
+  color: #0d0d0d;
+}
+
+#shortheading {
+  display: block;
+  font-size: clamp(14px, 2vw, 17px);
+  color: #6b7280;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+.startbtn {
+  padding: 13px 40px;
+  border: 1.5px solid #0d0d0d;
+  border-radius: 8px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+}
+
+.startbtn:hover {
+  background-color: #ffffff;
+  color: #0d0d0d;
+}
+
+.img {
+  width: clamp(52px, 7vw, 72px);
+  height: clamp(52px, 7vw, 72px);
+  object-fit: contain;
+  filter: none;
+}
